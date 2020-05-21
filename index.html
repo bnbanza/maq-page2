@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="menu">
+                <a href="">Inicio</a>
+                <a href="">Acerca de</a>
+                <a href="">Portafolio</a>
+                <a href="">Contactos</a>
+            </nav>
+            <div class="hamburger">
+                <img src="img/hamburger.svg" alt="">
+            </div>
+            <div class="container-header-text">
+                <h1 class="title-header">Barbara</h1>
+                <div class="line"></div>
+                <h2 class="headersubt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, perferendis!</h2>
+                <a href="" class="call-to-action">Contratame ahora</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="about-us">
+            <div class="container">
+                <div class="container-a-text">
+                    <h2>Simple & puro diseño</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo pariatur, veniam illum porro nesciunt corrupti explicabo et accusamus. Perferendis esse qui placeat hic labore corporis facilis tempora a enim dolor?</p>
+                </div>
+            </div>
+        </section>
+        <section class="icons">
+            <div class="container">
+                <div class="icons-container">
+                    <div class="individual-icon">
+                        <img src="img/icono1.png" alt="">
+                        <h3>Lorem, ipsum.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, explicabo! A officiis distinctio doloribus culpa?</p>
+                    </div>
+                    <div class="individual-icon">
+                        <img src="img/icono2.png" alt="">
+                        <h3>Lorem, ipsum.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, explicabo! A officiis distinctio doloribus culpa?</p>
+                    </div>
+                    <div class="individual-icon">
+                        <img src="img/icono3.png" alt="">
+                        <h3>Lorem, ipsum.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, explicabo! A officiis distinctio doloribus culpa?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio">
+            <div class="container">
+                <div class="port-text">
+                    <h2 class="portfolio-title">Haz de tu trabajo algo extraordinario</h2>
+                    <p>Contactame si estas preparado</p>
+                </div>
+                <div class="portfolio-container">
+                    <img src="img/1.jpg" alt="">
+                    <img src="img/2.jpg" alt="">
+                    <img src="img/3.jpg" alt="">
+                    <img src="img/4.jpg" alt="">
+                    <img src="img/5.jpg" alt="">
+                    <img src="img/6.jpg" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="text-footer">
+                <h2>Contacta con nosotros</h2>
+                <p>Lorem, ipsum dolor.</p>
+            </div>
+            <div class="container-form">
+                <form method="POST">
+                    <label for="name">Nombre de Contacto</label>
+                    <input type="text" name="name" placeholder="Nombre" id="name">
+                    <label for="mail">Correo Electrónico</label>
+                    <input type="email" id="mail" name="user_mail" placeholder="usuario@correoelectronico.com">
+                    <label for="msg">Mensaje</label>
+                    <textarea name="msg" id="msg" placeholder="Deje aqui su mensaje"></textarea>
+                </form>
+            </div>
+            <div class="btn-container">
+                <button type="submit">Enviar</button>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $('.hamburger').click(function(){
+            $('nav').toggleClass('open')
+        })
+
+    </script>
+</body>
+</html>
